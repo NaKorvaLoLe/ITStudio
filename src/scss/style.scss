@@ -15,10 +15,11 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1110px;
     margin: 0 auto;
 }
 
 
 @import 'blocks/footer';
-@import 'blocks/_aboutUs';
+@import 'blocks/aboutUs';
+@import 'blocks/standart';
