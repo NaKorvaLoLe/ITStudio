@@ -1,0 +1,17 @@
+.btn{
+    width: 200px;
+    background: $twoColor;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13px 0px;
+    transition: box-shadow 0.5s;
+    &:hover{
+        box-shadow: 0px 0px 10px;
+    }
+}

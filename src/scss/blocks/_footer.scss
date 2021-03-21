@@ -1,0 +1,67 @@
+.footer{
+    background: url('../img/footerBackground.jpg') center center / cover no-repeat;
+    height: 900px;
+    z-index: -1;
+    position: relative;
+    &::before{
+        position: absolute;
+        display: block;
+        content: '';
+        height: 1px;
+        width: 100%;
+        top: 99px;
+        color: #a1a1a1;
+        z-index: 10;
+    }
+    &__nav{
+        padding-top: 40px;
+        margin: 0 0 0 auto;
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        a{
+            padding: 0 20px;
+            display: block;
+            font-family: 'Montserrat' , sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            text-decoration: none; 
+            padding-bottom: 37px;  
+            border-bottom:2px solid rgba($color: #000000, $alpha: 0.0);;
+            transition: border;
+            &:hover{
+                border-bottom: 2px solid #FFFFFF;
+            }
+        }
+    }
+    &__title{
+        margin: 0;
+        padding-left: 55px;
+        padding-top: 220px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__subtitle{
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-top: 18px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__btn{
+        display: block;
+        margin: 35px 0 0 527px;
+
+    }
+
+}
