@@ -1,0 +1,31 @@
+.projects{
+    &__subtitle{
+        width: 730px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template: repeat(1, 255px) / repeat(4 , 255px);
+        grid-auto-rows: 255px;
+        gap: 30px;
+    }
+    &__item{
+        border-radius: 10px;
+    }
+    &__link{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 200px;
+        height: 32px;
+        border-radius: 30px;
+        background-color: #4985FF;
+        color: #fff;
+        text-align: center;
+        padding-top: 13px;
+        text-decoration: none;
+        margin-bottom: 100px;
+    }
+}
